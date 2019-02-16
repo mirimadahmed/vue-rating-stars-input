@@ -12,6 +12,11 @@
                 required: false,
                 default: 'input',
                 validator: value => ['input', 'show'].includes(value)
+            },
+            value: {
+                type: Number,
+                required: false,
+                default: 0,
             }
         }
     }
